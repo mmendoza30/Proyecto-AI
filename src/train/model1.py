@@ -1,4 +1,3 @@
-from scipy.signal import dfreqresp
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation
 from tensorflow.keras.optimizers import Adam
@@ -7,6 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error
 from tensorflow.keras.layers import Dropout
 import pandas as pd
+from tensorflow.keras.models import load_model
 
 class modelos:
     def __init__(self, df=None):
@@ -91,3 +91,8 @@ class modelos:
         print("-" * 30)
 
         return predictions, mae
+
+    def guardar_modelo(self, model, ruta):
+        """Guarda el modelo entrenado"""
+        model.save(ruta)
+        print(f"Modelo guardado en: {ruta}")

@@ -1,9 +1,9 @@
 # Proyecto C: Sistema de Predicción de Rendimiento Académico
 
 ## 👥 Equipo
-- **Integrante 1**: [Nombre]
-- **Integrante 2**: [Nombre]
-- **Integrante 3**: [Nombre]
+- **Integrante 1**: Victor Rojas Navarro
+- **Integrante 2**: Wedell Orozco Gonzalez
+- **Integrante 3**: Mónica Mendoza Morales
 
 ## 📋 Descripción del Proyecto
 Sistema de IA para predecir el desempeño académico de estudiantes y detectar tempranamente riesgo de deserción, permitiendo implementar intervenciones educativas oportunas.

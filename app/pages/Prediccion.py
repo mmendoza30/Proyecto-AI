@@ -66,7 +66,7 @@ with st.form("form"):
     age = st.slider("Edad", 15, 25, 15)
     studytime = st.selectbox("Horas de estudio", [1, 2, 3, 4])
     failures = st.slider("Cantidad de reprobaciones", 0, 4, 0)
-    absences = st.slider("Cantidad de ausencias", 0, 50, 5)
+    absences = st.slider("Cantidad de ausencias", 0, 50, 0)
     G1 = st.slider("Nota del primer trimestre", 0, 20, 0)
     G2 = st.slider("Nota del segundo trimestre", 0, 20, 0)
 

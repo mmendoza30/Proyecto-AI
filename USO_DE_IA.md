@@ -14,7 +14,7 @@
 - Prompt 7: En el notebook "x" crear un resumen general de los resultados obtenidos.
 
 ## 3. Reflexión sobre cómo la IA
-Reflexión 1: Partiendo de que considero a la IA una herramienta indispensable hoy en día en mi aprendizaje, en este proyecto me ayudó desde el comienzo a recordar las bases de la programación en Python, como la creación de clases y funciones. Me permitió comprender mejor el comportamiento de ciertas librerías y analizar si la lógica de mi código era la adecuada, ayudándome a mejorarla e incluso a optimizarla. Asimismo, fue un apoyo fundamental para aprender a utilizar GitHub de manera correcta y eficiente.
+Reflexión 1: Partiendo de que considero a la IA una herramienta indispensable hoy en día en mi aprendizaje, en este proyecto me ayudó desde el comienzo a recordar las bases de la programación en Python, como la creación de clases y funciones. Me permitió comprender mejor el comportamiento de ciertas librerías y analizar si la lógica de mi código era la adecuada, ayudándome a mejorarla e incluso a optimizarla. Asimismo, fue un apoyo fundamental para aprender a utilizar GitHub de manera correcta y eficiente con conceptos y comandos basicos.
 
 
 ## 4. Modificaciones al codigo o analisis con la IA

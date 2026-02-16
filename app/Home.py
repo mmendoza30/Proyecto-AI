@@ -18,8 +18,6 @@ Este sistema ha sido desarrollado con el objetivo de predecir el desempeño acad
 
 A partir de variables académicas, sociales y demográficas, la plataforma permite estimar la nota final esperada y clasificar el nivel de riesgo, generando alertas tempranas que facilitan la implementación de intervenciones educativas oportunas.""")
 
-st.subheader("Interpretación de Resultados")
-
 st.markdown("""
 ### Creado por:
 

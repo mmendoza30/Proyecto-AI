@@ -52,8 +52,24 @@ class api:
             2:"Riesgo medio",
             3:"Riesgo alto"
         }
+
+        if indice == 1:
+            alerta = "Intervención sugerida"
+        elif indice == 2:
+            alerta = "Intervención recomendada"
+        elif indice == 3:
+            alerta = "Intervención urgente"
+        else:
+            alerta = None
+
         return {
             "Nivelderiesgo": risk_labels[indice],
-            "Confianza": round(float(np.max(prediccion)),2),
-            "Alerta": "Intervención recomendada" if indice >= 2 else None
+            "Confianza": round(float(np.max(prediccion)), 2),
+            "Alerta": alerta
         }
+        #return {
+            #"Nivelderiesgo": risk_labels[indice],
+            #"Confianza": round(float(np.max(prediccion)),2),
+            #"Alerta": "Intervención recomendada" if indice >= 2 else None
+            #"Alerta": "Intervención recomendada" if indice == 2 else "Intervención urgente" if indice == 3 else None
+        #}

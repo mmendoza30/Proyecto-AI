@@ -35,7 +35,7 @@ class ProcesadoEDA:
             'schoolsup', 'famsup', 'paid', 'activities',
             'nursery', 'higher', 'internet', 'romantic'
         ]
-        self.df[columnas_binarias] = self.df[columnas_binarias].replace({'yes': 1, 'no': 0})
+        self.df[columnas_binarias] = self.df[columnas_binarias].replace({'yes': 1, 'no': 0}) # Columnas que ya tienen Yes/NO
         self.df['famsize'] = self.df['famsize'].replace({'LE3': 1, 'GT3': 0})
         self.df['sex'] = self.df['sex'].replace({'M': 1, 'F': 0})
         self.df['school'] = self.df['school'].replace({'GP': 1, 'MS': 0})
@@ -116,10 +116,9 @@ class ProcesadoEDA:
         X = self.df.drop(columns=val_dropX)
         y = self.df[val_selectY]
 
-        # 1. Aquí guardamos el resultado del split en una variable
+        # 1. Guardar el resultado del split en una variable
         resultado = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
-        # 2. Devolvemos ESE resultado (que son los 4 DataFrames de Pandas)
         return resultado
 
                              #******************Escalado*****************
